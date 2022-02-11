@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* :root{
+    
+  ---color  
+}  */
+body{
+    display: flex;
+    flex-direction: column;
+    background-image:url(/Imagenes/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    display: flex;
+    
+}
+.contenedor{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 20%;
+    border-bottom: 2px solid white;
+    padding: 1.5rem;
+}
+.l1{
+    height: 100%;
+}
+.logo{
+    height: 100%;
+   
+}
+.logo:hover{
+    height: 110%;
+}
+.a1{
+    padding: 0.3em 1rem;
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.a1:hover{
+    color:rgb(241, 133, 241);
+    border-bottom: 4px solid rgb(82, 3, 82);
+    font-size: 1.3rem;
+}
+.registro{
+    padding: 1rem 1.2rem;
+    border-radius: 0.8rem ;
+    text-decoration: none;
+    font-size: 1.4rem;
+    height:2rem;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #7c00b563, #cf69fe, #c827c0, #7c00b563);
+}
+.registro:hover{
+    font-size: 1.8      rem;
+}
+.vertodos{
+    padding: 1rem 1.8rem;
+    border-radius: 0.8rem ;
+    background: linear-gradient(-45deg,#7c00b563, #cf69fe, #c827c0, #7c00b563);
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    height: 4rem;
+    margin-left: 56rem;
+    margin-bottom:1rem;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+
+}
+.maintable{
+    display: flex;
+    padding: 1rem;
+    align-items: stretch;
+}
+
+h1{
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes h1{
+    0% {
+      opacity: 0;
+      transform-origin: 50% 50%;
+      transform: scale( 1, 1);
+      filter: blur(90px);
+    }
+    100% {
+      opacity: 1;
+      transform-origin: 50% 50%;
+      transform: scale(1, 1);
+      filter: blur(0px);
+    }
+  }
+  
+h1{
+    padding-top: 2rem;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+.p1{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 1.3rem;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 236, 236);
+    height: 14rem;
+    width: 74vw;
+    height: 40vh;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+.contenedor1 a{
+    text-align: center;
+    height: 8vh;
+    padding-top: 1rem;
+    background-color: rgba(105, 5, 105, 0.87);
+    border-radius: 2rem 2rem 0rem 0rem;
+    padding: 0.5rem;
+    border-bottom: 3px solid white;
+    color:white;
+    font-size: 1.5rem;
+   text-decoration: none;
+}
+.contenedor1 a:hover{
+    font-size: 1.7rem;
+    
+}
+
+.Design5{
+    display: flex;
+    width: 100%;
+  
+}
+.desing6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 69%;
+    height: 12rem;
+    padding: 0.6rem 1rem;
+}
+.metallica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 12rem;
+    padding: 0.6rem 1rem;
+    background-image: url(/Imagenes/logo-metallica1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border: 0.5px solid white;
+    border-radius: 1rem;
+}
+.metallica p{
+    color: white;
+    font-family:"Poppins", sans-serif;
+    font-weight: bold;
+    
+}
+
+.imgdiv{
+    width: 29%;
+    margin-left: 0.2rem;
+    border-radius: 1rem;
+
+}
+footer{
+    height: 10%;
+    border-top: 5px solid black;
+}
+h2{
+    text-align: center;
+    padding-top: 1rem;
+    background-color: rgba(105, 5, 105, 0.87);
+    border-radius: 2rem 2rem 0rem 0rem;
+    padding: 0.5rem;
+    border-bottom: 3px solid white;
+    color:white;
+}
+p{
+    /* text-align: center; */
+    padding-top: 0.5rem;
+}
+
+.fecha{
+    padding: 0;
+    text-align: end;
+}
+
+.fecha p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+}
+footer{
+   height: 8hv;
+    border-top: 2px solid white;
+}
+.p3{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+.conainerform{
+    background-color: #e5e5f7;
+    border-radius: 2rem;
+    opacity: 0.8;
+    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #cccdec, #cccdec 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+    height: 94vh;
+    width: 140vh;
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    }
+    .p4{
+        color: #000;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    label{
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+      
+       margin-left: 1rem;
+    }
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        text-align:justify;
+        padding: 0rem 1rem;
+        border: none;
+    }
+    input{
+        height: 2.5rem;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        margin: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    #searchInput{
+        height: 2.5rem;
+        width: 20rem;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        margin: 0.5rem;
+        padding-left: 1rem; 
+    }
+    .user{
+       display: flex;
+       flex-direction: row;
+       margin-top: 1rem;
+    
+    }
+    
+    select{
+        width: 32vw;
+        margin-left: 1rem; 
+        height: 2.8rem;
+        border-radius: 1rem;
+        padding: 0rem 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .terminos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .continue{
+        margin-top: 0.5rem;
+    }
+    .submit{
+        height: 2.5rem;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        margin: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
+    .submit:hover{
+    background-color:  #f310e8;
+    }
+
+ .label1{
+     font-size: 2rem;
+     color: white;
+ }  
+ .filters{
+     padding-top: 2rem;
+ } 
+ .micheckbox{
+     color: white;
+     font-size: 1.2rem;
+ }
+ .tabla{
+    margin: 2.5rem 2.8rem;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    border-radius: 1rem;
+    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #cccdec, #cccdec 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+ }
+ .tabla2{
+    margin: 0rem 2.8rem 3rem;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    border-radius: 1rem;
+    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #cccdec, #cccdec 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+ } 
+  tr th{
+     font-size: 1rem;
+     color: black;
+     padding: 1rem;
+     border-bottom: 3px solid white;
+     
+}
+tr td{
+    font-size: 1rem;
+    color: black ;
+    padding: 1rem;
+    border-bottom: 3px solid white;
+} 
+.table-success {
+    width: 30vw;
+    font-size: 5rem;
+    margin-left: 14rem;
+}
+
+@media  screen and (max-width: 600px ){
+
+@keyframes h1{
+    0% {
+      opacity: 0;
+      transform-origin: 50% 50%;
+      transform: scale( 1, 1.5);
+      filter: blur(90px);
+    }
+    100% {
+      opacity: 1;
+      transform-origin: 50% 50%;
+      transform: scale(1, 1);
+      filter: blur(0px);
+    }
+  }
+p{
+    font-size: 1.3rem;
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 236, 236);
+    width: 80vw;
+    height: 26vh;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+.contenedor{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 15vh;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    position: 1;
+}
+.l1{
+    height: 80%;
+}
+.logo{
+    width: 100%;
+   
+}
+.a1{
+    padding: 0.3em 0.5rem;
+    color: white;
+    font-size: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.a1:hover{
+    color:rgb(241, 133, 241);
+    border-bottom: 3px solid rgb(82, 3, 82);
+    font-size: 0.6rem;
+}
+
+.registro{
+    padding: 0.3rem 0.3rem;
+    border-radius: 0.5rem ;
+    text-decoration: none;
+    font-size: 0.5rem;
+    height:0.8rem;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #7c00b563, #cf69fe, #c827c0, #7c00b563);
+}
+.registro:hover{
+    font-size: 0.6rem;
+}
+.conainerform{
+    background-color: #e5e5f7;
+    border-radius: 2rem;
+    opacity: 0.8;
+    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #cccdec, #cccdec 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+    height: 78vh;
+    width: 60vh;
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    }
+
+p{
+    font-size: 1rem;
+}
+h1{
+    font-size: 3rem;
+}
+.p1{
+    font-size: 2rem;
+}
+.imgdiv{
+    height: 180px;
+}
+.metallica{
+   height: 23vh; 
+}
+.vertodos{
+    padding: 1rem 1.8rem;
+    border-radius: 0.8rem ;
+    background: linear-gradient(-45deg,#7c00b563, #cf69fe, #c827c0, #7c00b563);
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    height: 3rem;
+    margin-left: 25rem;
+    margin-bottom:1rem;
+    text-align: center;
+}
+.desing6{
+    display: flex;
+    height: 14rem;
+}
+}
+#searchInput{
+    height: 2rem;
+}
+.label1{
+    font-size: 1.8rem;
+}
+#select{
+    height: 2rem;
+    width: 20rem;
+    margin-top: 0.4 rem;
+}
+#checkboxEvento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+      

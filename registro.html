@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header class="contenedor">
+      <div class="l1">
+        <img class="logo" src="./Imagenes/logo.png" alt="logo" />
+      </div>
+      <nav>
+        <a class="a1" href="./index.html">Home</a>
+        <a class="a1" href="./proximoseventos.html">Proximos Eventos</a>
+        <a class="a1" href="./eventospasados.html">Eventos Pasados</a>
+        <a class="a1" href="./detalle.html">Resumen</a>
+        <a class="a1" href="./summary.html">Estadistica</a>
+      </nav>
+    </header>
+    <main>
+      <h1>¡Registrate!</h1>
+      <div class="conainerform">
+        <form action="data" class="form">
+          <p class="p4">Llena el Formulario</p>
+          <fieldset>
+            <label for="name">Nombre Completo:</label>
+            <input type="text" id="name" placeholder="Nombres" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Email" />
+          </fieldset>
+          <fieldset>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" placeholder="Contraseña" />
+            <label for="repitpassword">Confirme Contraseña:</label>
+            <input type="password" id="repitpassword" placeholder="Confirmar Contraseña" />
+          </fieldset>
+          <fieldset class="user">
+            <label for="selection">Tipo de Usuario:</label>
+            <select name="Seleccion" id="selection">
+              <option value="one">Seleccione</option>
+              <option value="two">Estudiante</option>
+              <option value="three">Docente</option>
+              <option value="four">Otro</option>
+            </select>
+          </fieldset>
+          <fieldset class="terminos">
+            <input type="checkbox" id="termino"/>
+            <label for="termino" >Acepto Termino y Condiciones</label>
+          </fieldset>
+          <fieldset class="continue">
+            <input class="submit" type="submit" value="Continuar" />
+          </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p class="p3">Derechos Reservados || 2022</p>
+    </footer>
+  </body>
+</html>
